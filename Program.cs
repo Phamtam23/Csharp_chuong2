@@ -30,7 +30,22 @@ namespace chuong2
         }
         static void Main(string[] args)
         {
-            Console.WriteLine("chuong2");
+            //Hiển thị danh sách học sinh
+            Console.WriteLine("Hiển thị danh sách học sinh");
+            // Tạo mảng chứa danh sách sinh viên
+            Student_336[] students_336 = new Student_336[]
+            {
+            new Student_336(101, "Nguyễn Văn A", 3.5),
+            new Student_336(102, "Trần Thị B", 3.8),
+            new Student_336(103, "Lê Văn C", 3.2)
+            };
+
+            // Duyệt mảng và hiển thị thông tin sinh viên bằng foreach
+            Console.WriteLine("Danh sách sinh viên:");
+            foreach (Student_336 student_336 in students_336)
+            {
+                student_336.Display_336();
+            }
         }
     }
 }
