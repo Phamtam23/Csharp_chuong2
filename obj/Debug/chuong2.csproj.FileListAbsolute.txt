@@ -1,0 +1,7 @@
+E:\ki225\c#\chuong2\bin\Debug\chuong2.exe.config
+E:\ki225\c#\chuong2\bin\Debug\chuong2.exe
+E:\ki225\c#\chuong2\bin\Debug\chuong2.pdb
+E:\ki225\c#\chuong2\obj\Debug\chuong2.csproj.AssemblyReference.cache
+E:\ki225\c#\chuong2\obj\Debug\chuong2.csproj.CoreCompileInputs.cache
+E:\ki225\c#\chuong2\obj\Debug\chuong2.exe
+E:\ki225\c#\chuong2\obj\Debug\chuong2.pdb
