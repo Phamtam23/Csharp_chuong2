@@ -36,7 +36,14 @@ namespace chuong2
         static void Main(string[] args)
         {
             //Định nghĩa kiểu điểm và màu
-            Console.WriteLine("chuong2");
+            Console.WriteLine("Định nghĩa kiểu điểm và màu");
+            // Tạo đối tượng Point_336
+            Point_336 p1_336 = new Point_336(5, 10, PointColor_336.LightBlue_336);
+            Point_336 p2_336 = new Point_336(2, 8, PointColor_336.BloodRed_336);
+
+            // Hiển thị trạng thái các điểm
+            p1_336.Display_336();
+            p2_336.Display_336();
         }
     }
 }
