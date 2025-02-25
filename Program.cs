@@ -31,6 +31,30 @@ namespace chuong2
             Console.WriteLine($"Point_336({x_336}, {y_336}) - Color: {color_336}");
         }
     }
+
+    class Rectangle_336
+    {
+        public Point_336 upperLeft_336 { get; set; }
+        public Point_336 bottomRight_336 { get; set; }
+
+        // Constructor
+        public Rectangle_336(Point_336 upperLeft_336, Point_336 bottomRight_336)
+        {
+            this.upperLeft_336 = upperLeft_336;
+            this.bottomRight_336 = bottomRight_336;
+        }
+
+        // Hiển thị trạng thái hình chữ nhật
+        public void Display_336()
+        {
+            Console.WriteLine("Rectangle_336:");
+            Console.Write(" - Upper Left: ");
+            upperLeft_336.Display_336();
+            Console.Write(" - Bottom Right: ");
+            bottomRight_336.Display_336();
+        }
+    }
+
     class Program
     {
         static void Main(string[] args)
