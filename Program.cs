@@ -16,8 +16,11 @@ namespace chuong2
         static void Main(string[] args)
         {
             Console.WriteLine("Định nghĩa Enum cho các ngày trong tuần");
-
-        
-    }
+            Console.WriteLine("Các ngày trong tuần:");
+            foreach (string day_336 in Enum.GetNames(typeof(DaysOfWeek_336)))
+            {
+                Console.WriteLine(day_336);
+            }
+        }
     }
 }
