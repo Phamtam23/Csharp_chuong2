@@ -27,6 +27,13 @@ namespace chuong2
         {
             //Tạo lớp WeatherInfo_336 chứa Enum WeatherCondition_336 và hàm DisplayWeather_336 có sử dụng optional parameter
             Console.WriteLine("Tạo lớp WeatherInfo_336 chứa Enum WeatherCondition_336 và hàm DisplayWeather_336 có sử dụng optional parameter");
+            WeatherInfo_336 report_336 = new WeatherInfo_336();
+
+            // Gọi phương thức mà không truyền tham số (sẽ dùng giá trị mặc định)
+            report_336.DisplayWeather_336();
+
+            // Gọi phương thức với một giá trị Enum cụ thể
+            report_336.DisplayWeather_336(WeatherInfo_336.WeatherCondition_336.Rainy_336);
         }
     }
 }
