@@ -61,13 +61,14 @@ namespace chuong2
         {
             //Định nghĩa kiểu điểm và màu
             Console.WriteLine("Định nghĩa kiểu điểm và màu");
-            // Tạo đối tượng Point_336
-            Point_336 p1_336 = new Point_336(5, 10, PointColor_336.LightBlue_336);
-            Point_336 p2_336 = new Point_336(2, 8, PointColor_336.BloodRed_336);
+            // Tạo điểm
+            Point_336 p1_336 = new Point_336(1, 4, PointColor_336.Gold_336);
+            Point_336 p2_336 = new Point_336(6, 1, PointColor_336.BloodRed_336);
 
-            // Hiển thị trạng thái các điểm
-            p1_336.Display_336();
-            p2_336.Display_336();
+            // Tạo hình chữ nhật
+            Rectangle_336 rect_336 = new Rectangle_336(p1_336, p2_336);
+            // Hiển thị trạng thái hình chữ nhật
+            rect_336.Display_336();
         }
     }
 }
